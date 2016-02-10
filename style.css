@@ -1,10 +1,20 @@
-#welcome-banner {
-  font-size: 32px;
-  background: lightgreen;
+.button {
+  background: #FF1F2A;
+  color: #FFF;
+  padding: 5px;
+  display: inline-block;
 }
-@media screen and (max-width: 768px) {
-  #welcome-banner {
-    font-size: 18px;
-    background: lightsteelblue;
-  }
+.jumbo-button {
+  background: #FF1F2A;
+  color: #FFF;
+  padding: 5px;
+  display: inline-block;
+  padding: 35px;
+}
+.light-button {
+  background: #FF1F2A;
+  color: #FFF;
+  padding: 5px;
+  display: inline-block;
+  background: #ff5d7e;
 }

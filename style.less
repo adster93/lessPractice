@@ -41,17 +41,44 @@
 
 // }
 
-#welcome-banner {
-	font-size: 32px;
-	background: lightgreen;
-	// only on small screen devices
-	@media screen{
-		@media (max-width: 768px){
-			font-size: 18px;
-			background: lightsteelblue;
-		}
-	}
+// #welcome-banner {
+// 	font-size: 32px;
+// 	background: lightgreen;
+// 	// only on small screen devices
+// 	@media screen{
+// 		@media (max-width: 768px){
+// 			font-size: 18px;
+// 			background: lightsteelblue;
+// 		}
+// 		@media (max-width: 500px){
+// 			font-size: 30px;
+// 			background: red;
+// 		}
+// 	}
+// }
+
+
+@buttonBackground: #FF1F2A;
+@buttonColor: #FFF;
+@buttonPadding: 5px;
+
+.button {
+	background: @buttonBackground;
+	color: @buttonColor;
+	padding: @buttonPadding;
+	display: inline-block;
 }
+
+.jumbo-button {
+	.button;
+	padding: @buttonPadding + 30;
+}
+
+.light-button {
+	.button;
+	background: @buttonBackground * 3.0;
+}
+
 
 
 
