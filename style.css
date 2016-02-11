@@ -1,20 +1,18 @@
-.button {
-  background: #FF1F2A;
-  color: #FFF;
-  padding: 5px;
+.buttpractice {
+  background: #5B1855;
+  color: #5B1855;
+  padding: 20px;
   display: inline-block;
 }
-.jumbo-button {
-  background: #FF1F2A;
-  color: #FFF;
-  padding: 5px;
-  display: inline-block;
-  padding: 35px;
+#one {
+  height: 500px;
+  width: 800px;
+  margin-bottom: 10px;
+  background: url("images/watermelon.jpg");
 }
-.light-button {
-  background: #FF1F2A;
-  color: #FFF;
-  padding: 5px;
-  display: inline-block;
-  background: #ff5d7e;
+#two {
+  height: 500px;
+  width: 800px;
+  margin-bottom: 10px;
+  background: url("images/homepagegirl.jpg");
 }
